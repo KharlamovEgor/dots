@@ -1,0 +1,111 @@
+* {
+  /*font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: rgba(43, 48, 59, 0.5);
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#clock {
+  margin-right: 10px;
+}
+
+#workspaces {
+  margin-left: 10px;
+  background-color: #111;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+}
+
+#workspaces button {
+  border-radius: 20px;
+  padding: 0 5px;
+  background-color: transparent;
+  color: white;
+}
+
+#workspaces button:hover {
+  background-color: #64727d;
+}
+
+#workspaces button.active {
+  background-color: #64727d;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#clock,
+#network,
+#pulseaudio,
+#wireplumber,
+#tray,
+#language {
+  padding: 5px 15px;
+  /*color: #ffffff;*/
+  color: white;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*background-color: #64727d;*/
+  background-color: #4c566a;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+/*#clock {*/
+/*}*/
+
+/*#network {*/
+/*  background-color: #2980b9;*/
+/*}*/
+/**/
+/*#network.disconnected {*/
+/*  background-color: #f53c3c;*/
+/*}*/
+/**/
+/*#pulseaudio {*/
+/*  background-color: #f1c40f;*/
+/*  color: #000000;*/
+/*}*/
+/**/
+/*#pulseaudio.muted {*/
+/*  background-color: #90b1b1;*/
+/*  color: #2a5c45;*/
+/*}*/
+/**/
+/*#wireplumber {*/
+/*  background-color: #fff0f5;*/
+/*  color: #000000;*/
+/*}*/
+/**/
+/*#wireplumber.muted {*/
+/*  background-color: #f53c3c;*/
+/*}*/
+/**/
+/*#tray {*/
+/*  background-color: #2980b9;*/
+/*}*/
+/**/
+/*#language {*/
+/*  background: #00b093;*/
+/*}*/

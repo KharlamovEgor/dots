@@ -1,0 +1,17 @@
+#window, #input {
+    border-radius: 20px;
+}
+
+#input {
+    padding: 10px;
+    margin: 10px;
+}
+
+#inner-box {
+    padding: 10px 10px 20px;
+}
+
+#img {
+    margin-right: 5px;
+}
+
